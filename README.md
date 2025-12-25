@@ -26,7 +26,7 @@ Win8，Server2012及以上，低版本BUG一律不修。
 
 ## VS2022运行库
 基础版本号：VS2022运行库以上
-<a href="[https://www.exuik.com/](https://learn.microsoft.com/zh-tw/cpp/windows/latest-supported-vc-redist?view=msvc-170)" target="_blank">Microsoft Visual C++ 可轉散發套件的最新支援下載項目</a>
+<a href="https://www.exuik.com/](https://learn.microsoft.com/zh-tw/cpp/windows/latest-supported-vc-redist?view=msvc-170" target="_blank">Microsoft Visual C++ 可转散发套件的最新支持下载项目</a>
 
 
 ## 引用框架
