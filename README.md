@@ -8,7 +8,7 @@
 3. 本项目基于zyCurl底包重构而来,底包作者@kyozy.
 4. 包含H2特征Akamai,修改TLS特征ciphersuites,cipher_list,Extensions,curves,sigalgs,padding,RANDOM_GREASE_GROUP,RANDOM_GREASE_PADDING,RANDOM_SHUFFLE_EXT,RANDOM_GREASE_KEY_SHARE,RANDOM_SHUFFLE_KEY_SHARE
 5. 默认不支持TLS1.0&2.0&自动重定向
-6. 相似项目基于boringSSL+CURL https://github.com/lexiforest/curl_cffi
+6. 相似项目基于CFFI+CURL https://github.com/lexiforest/curl_cffi
 
 ## 更新日志
 2025/12/26第一次发版测试
