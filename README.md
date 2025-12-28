@@ -2,7 +2,7 @@
 1. 这是一个基于Openssl+CURL系列开发高度拟浏览器的易语言框架
 2. 本项目只适用于Eyuyan_X86用户
 3. 本项目基于zyCurl底包重构而来,底包作者@kyozy.
-4. 包含H2特征Akamai,修改TLS特征Extensions,curves,sigalgs,padding,RANDOM_GREASE_GROUP,RANDOM_GREASE_PADDING,RANDOM_SHUFFLE_EXT,RANDOM_GREASE_KEY_SHARE,RANDOM_SHUFFLE_KEY_SHARE
+4. 包含H2特征Akamai,修改TLS特征ciphersuites,cipher_list,sigalgs_list,Extensions,curves,sigalgs,padding,RANDOM_GREASE_GROUP,RANDOM_GREASE_PADDING,RANDOM_SHUFFLE_EXT,RANDOM_GREASE_KEY_SHARE,RANDOM_SHUFFLE_KEY_SHARE
 5. 默认不支持TLS1.0&2.0&自动重定向
 6. 相似项目基于boringSSL+CURL https://github.com/lexiforest/curl_cffi
 
