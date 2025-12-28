@@ -1,11 +1,15 @@
 # Eyuyan_Curl
-1. 这是一个基于CURL系列开发的易语言框架
+1. 这是一个基于Openssl+CURL系列开发高度拟浏览器的易语言框架
 2. 本项目只适用于Eyuyan_X86用户
 3. 本项目基于zyCurl底包重构而来,底包作者@kyozy.
-
+4. 包含H2特征Akamai,修改TLS特征Extensions,curves,sigalgs,padding,RANDOM_GREASE_GROUP,RANDOM_GREASE_PADDING,RANDOM_SHUFFLE_EXT,RANDOM_GREASE_KEY_SHARE,RANDOM_SHUFFLE_KEY_SHARE
+5. 默认不支持TLS1.0&2.0&自动重定向
+6. 相似项目基于boringSSL+CURL https://github.com/lexiforest/curl_cffi
 
 ## 更新日志
 2025/12/26第一次发版测试
+仅作测试，不代表没有BUG，不代表不会把轮子推倒，意味着不能基于它做任何开发。
+2025/12/28第二次发版测试
 仅作测试，不代表没有BUG，不代表不会把轮子推倒，意味着不能基于它做任何开发。
 
 ## 公益项目
@@ -46,7 +50,7 @@ Win8，Server2012及以上，低版本BUG一律不修。
 ## 项目分发规则
 本项目以GPL-3.0 license开源协议分发代码
 
-1.禁止通过贩卖开源代码来获利，不限于收费易语言模块引用我开源的代码。
+1. 禁止通过贩卖开源代码来获利，不限于收费易语言模块引用我开源的代码。
 
 2. 本文仅用于开源协议研究与学习，所有示例代码遵守原协议条款发布。
 
