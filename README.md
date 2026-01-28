@@ -13,8 +13,12 @@
 2025/12/28第二次发版测试
 仅作测试，不代表没有BUG，不代表不会把轮子推倒，意味着不能基于它做任何开发。
 2026/1/28推轮子了
-使用[curl-impersonate](https://github.com/lexiforest/curl-impersonate)
-写了HTTP/S所有的命令,其他的再议反正除了HTTP/S也没人用别的协议.
+反正写了不少代码,我也不知道写了些什么
+还有你们几行代码写一个功能的牛逼项目是写的?
+我百思不得其解,反正就这么些功能,我还没想好怎么封装
+下一步要写openssl了,其他的再议反正除了HTTP/S也没人用别的协议.
+看得懂就看,看不懂关掉.
+[curl-impersonate上游库](https://github.com/lexiforest/curl-impersonate)
 
 ## 公益项目
 2025/12/26-本项目永久免费
@@ -30,20 +34,6 @@
 
 ## 推荐系统
 Win8，Server2012及以上，低版本BUG一律不修。
-
-## 引用框架
-1. brotli-1.2.0
-2. c-ares-1.34.6
-3. cJSON1.7.19
-4. curl-8.17.0
-5. libpsl-0.21.5
-6. libssh2-1.11.1
-7. nghttp2-1.68.0
-8. nghttp3-1.14.0
-9. ngtcp2-1.19.0
-10. openssl3.6.0
-11. zlib-1.3.1
-12. zstd-1.5.7
 
 ## 项目分发规则
 本项目以GPL-3.0 license开源协议分发代码
