@@ -3,18 +3,18 @@
 > [@Akid_V](https://t.me/Akid_V) [TG群组](https://t.me/Akid_VI)
 
 # Eyuyan_Curl
-1. 这是一个基于Openssl+CURL系列开发高度拟浏览器的易语言框架
+1. 这是一个基于[curl-impersonate](https://github.com/lexiforest/curl-impersonate)的易语言模块
 2. 本项目只适用于Eyuyan_X86用户
 3. 本项目基于zyCurl底包重构而来,底包作者@kyozy.
-4. 包含H2特征Akamai,修改TLS特征ciphersuites,cipher_list,Extensions,curves,sigalgs,padding,RANDOM_GREASE_GROUP,RANDOM_GREASE_PADDING,RANDOM_SHUFFLE_EXT,RANDOM_GREASE_KEY_SHARE,RANDOM_SHUFFLE_KEY_SHARE
-5. 默认不支持TLS1.0&2.0&自动重定向
-6. 相似项目基于CFFI+CURL https://github.com/lexiforest/curl_cffi
 
 ## 更新日志
 2025/12/26第一次发版测试
 仅作测试，不代表没有BUG，不代表不会把轮子推倒，意味着不能基于它做任何开发。
 2025/12/28第二次发版测试
 仅作测试，不代表没有BUG，不代表不会把轮子推倒，意味着不能基于它做任何开发。
+2026/1/28推轮子了
+使用[curl-impersonate](https://github.com/lexiforest/curl-impersonate)
+写了HTTP/S所有的命令,其他的再议反正除了HTTP/S也没人用别的协议.
 
 ## 公益项目
 2025/12/26-本项目永久免费
@@ -28,14 +28,8 @@
 5. 遵循RFC各项标准
 6. 后续封装一些Openssl的一些常用的加密算法
 
-
-## 支持系统
+## 推荐系统
 Win8，Server2012及以上，低版本BUG一律不修。
-
-## VS2022运行库
-基础版本号：VS2022运行库以上
-<a href="https://learn.microsoft.com/zh-tw/cpp/windows/latest-supported-vc-redist?view=msvc-170" target="_blank">Microsoft Visual C++ 可转散发套件的最新支持下载项目</a>
-
 
 ## 引用框架
 1. brotli-1.2.0
